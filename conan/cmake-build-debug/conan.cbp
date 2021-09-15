@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="conan"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conan">
+				<Option output="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug/bin/conan.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/.conan/e4fd1e/1/include"/>
+					<Add directory="C:/Users/youne/.conan/data/poco/1.11.0/_/_/package/f5ef098d1b6ab6df6f57a473c53f83f347d39d96/include"/>
+					<Add directory="C:/Users/youne/.conan/data/pcre/8.45/_/_/package/e87a8a0d1a34c63e57cfcfa8aa6088b17582df41/include"/>
+					<Add directory="C:/Users/youne/.conan/data/sqlite3/3.36.0/_/_/package/050fb3a4d3559ab088bce91739e61889c28839d1/include"/>
+					<Add directory="C:/Users/youne/.conan/data/libpq/13.3/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/apr-util/1.6.1/_/_/package/e9f63c7f8e8beb7d42241c3a31d1d0967b952f39/include"/>
+					<Add directory="C:/Users/youne/.conan/data/libmysqlclient/8.0.25/_/_/package/1688da46a81eadb37e6a627f0308b55ff092f409/include"/>
+					<Add directory="C:/Users/youne/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include"/>
+					<Add directory="C:/Users/youne/.conan/data/expat/2.4.1/_/_/package/ce5788ba7e3bb7dc834e36b06df66c481f42c99a/include"/>
+					<Add directory="C:/Users/youne/.conan/data/openssl/1.1.1k/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/apr/1.7.0/_/_/package/cf891dd126e70b2c8f35cf0b73ac8122fba92641/include"/>
+					<Add directory="C:/Users/youne/.conan/data/zstd/1.5.0/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/lz4/1.9.3/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 conan"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="conan/fast">
+				<Option output="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug/bin/conan.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/.conan/e4fd1e/1/include"/>
+					<Add directory="C:/Users/youne/.conan/data/poco/1.11.0/_/_/package/f5ef098d1b6ab6df6f57a473c53f83f347d39d96/include"/>
+					<Add directory="C:/Users/youne/.conan/data/pcre/8.45/_/_/package/e87a8a0d1a34c63e57cfcfa8aa6088b17582df41/include"/>
+					<Add directory="C:/Users/youne/.conan/data/sqlite3/3.36.0/_/_/package/050fb3a4d3559ab088bce91739e61889c28839d1/include"/>
+					<Add directory="C:/Users/youne/.conan/data/libpq/13.3/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/apr-util/1.6.1/_/_/package/e9f63c7f8e8beb7d42241c3a31d1d0967b952f39/include"/>
+					<Add directory="C:/Users/youne/.conan/data/libmysqlclient/8.0.25/_/_/package/1688da46a81eadb37e6a627f0308b55ff092f409/include"/>
+					<Add directory="C:/Users/youne/.conan/data/zlib/1.2.11/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/bzip2/1.0.8/_/_/package/d16a91eadaaf5829b928b12d2f836ff7680d3df5/include"/>
+					<Add directory="C:/Users/youne/.conan/data/expat/2.4.1/_/_/package/ce5788ba7e3bb7dc834e36b06df66c481f42c99a/include"/>
+					<Add directory="C:/Users/youne/.conan/data/openssl/1.1.1k/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/apr/1.7.0/_/_/package/cf891dd126e70b2c8f35cf0b73ac8122fba92641/include"/>
+					<Add directory="C:/Users/youne/.conan/data/zstd/1.5.0/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:/Users/youne/.conan/data/lz4/1.9.3/_/_/package/3fb49604f9c2f729b85ba3115852006824e72cab/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 conan/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/conan/main.cpp">
+			<Option target="conan"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/conan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

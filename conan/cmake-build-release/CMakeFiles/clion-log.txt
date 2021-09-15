@@ -1,0 +1,83 @@
+conan install C:/Users/youne/Desktop/Project-pocs/conan -if=C:\Users\youne\Desktop\Project-pocs\conan\cmake-build-release -pr=default
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=Visual Studio
+compiler.runtime=MD
+compiler.version=16
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+[env]
+
+conanfile.txt: Installing package
+Requirements
+    apr/1.7.0 from 'conancenter' - Cache
+    apr-util/1.6.1 from 'conancenter' - Cache
+    boost/1.77.0 from 'conancenter' - Cache
+    bzip2/1.0.8 from 'conancenter' - Cache
+    expat/2.4.1 from 'conancenter' - Cache
+    libmysqlclient/8.0.25 from 'conancenter' - Cache
+    libpq/13.3 from 'conancenter' - Cache
+    lz4/1.9.3 from 'conancenter' - Cache
+    openssl/1.1.1k from 'conancenter' - Cache
+    pcre/8.45 from 'conancenter' - Cache
+    poco/1.11.0 from 'conancenter' - Cache
+    sqlite3/3.36.0 from 'conancenter' - Cache
+    zlib/1.2.11 from 'conancenter' - Cache
+    zstd/1.5.0 from 'conancenter' - Cache
+Packages
+    apr/1.7.0:cf891dd126e70b2c8f35cf0b73ac8122fba92641 - Cache
+    apr-util/1.6.1:e9f63c7f8e8beb7d42241c3a31d1d0967b952f39 - Cache
+    boost/1.77.0:a60baac5107ef779a5865836fcb50c28ae423a0b - Cache
+    bzip2/1.0.8:d16a91eadaaf5829b928b12d2f836ff7680d3df5 - Cache
+    expat/2.4.1:ce5788ba7e3bb7dc834e36b06df66c481f42c99a - Cache
+    libmysqlclient/8.0.25:1688da46a81eadb37e6a627f0308b55ff092f409 - Cache
+    libpq/13.3:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+    lz4/1.9.3:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+    openssl/1.1.1k:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+    pcre/8.45:e87a8a0d1a34c63e57cfcfa8aa6088b17582df41 - Cache
+    poco/1.11.0:f5ef098d1b6ab6df6f57a473c53f83f347d39d96 - Cache
+    sqlite3/3.36.0:050fb3a4d3559ab088bce91739e61889c28839d1 - Cache
+    zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+    zstd/1.5.0:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+
+Installing (downloading, building) binaries...
+apr/1.7.0: Already installed!
+apr/1.7.0: Settings APR_ROOT environment var: /mnt/c/Users/youne/.conan/data/apr/1.7.0/_/_/package/cf891dd126e70b2c8f35cf0b73ac8122fba92641
+bzip2/1.0.8: Already installed!
+bzip2/1.0.8: Appending PATH environment variable: C:\Users\youne\.conan\data\bzip2\1.0.8\_\_\package\d16a91eadaaf5829b928b12d2f836ff7680d3df5\bin
+expat/2.4.1: Already installed!
+libpq/13.3: Already installed!
+lz4/1.9.3: Already installed!
+openssl/1.1.1k: Already installed!
+sqlite3/3.36.0: Already installed!
+sqlite3/3.36.0: Appending PATH env var with : C:\Users\youne\.conan\data\sqlite3\3.36.0\_\_\package\050fb3a4d3559ab088bce91739e61889c28839d1\bin
+zlib/1.2.11: Already installed!
+zstd/1.5.0: Already installed!
+apr-util/1.6.1: Already installed!
+apr-util/1.6.1: Appending PATH env var : C:\Users\youne\.conan\data\apr-util\1.6.1\_\_\package\e9f63c7f8e8beb7d42241c3a31d1d0967b952f39\bin
+apr-util/1.6.1: Settings APR_UTIL_ROOT environment var: /mnt/c/Users/youne/.conan/data/apr-util/1.6.1/_/_/package/e9f63c7f8e8beb7d42241c3a31d1d0967b952f39
+boost/1.77.0: Already installed!
+boost/1.77.0: Disabled magic autolinking (smart and magic decisions)
+libmysqlclient/8.0.25: Already installed!
+pcre/8.45: Already installed!
+pcre/8.45: Appending PATH environment variable: C:\Users\youne\.conan\data\pcre\8.45\_\_\package\e87a8a0d1a34c63e57cfcfa8aa6088b17582df41\bin
+poco/1.11.0: Already installed!
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Aggregating env generators
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\youne\Desktop\Project-pocs\conan
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/youne/Desktop/Project-pocs/conan/cmake-build-release

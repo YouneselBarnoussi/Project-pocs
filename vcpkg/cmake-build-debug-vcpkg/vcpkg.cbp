@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vcpkg"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vcpkg\;CMake Files\vcpkg\scripts\;CMake Files\vcpkg\scripts\buildsystems\;CMake Files\cmake-build-debug-vcpkg\;CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\;CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\;CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\;CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\unofficial-sqlite3\;CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vcpkg">
+				<Option output="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 vcpkg"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vcpkg/fast">
+				<Option output="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 vcpkg/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\youne\Desktop\Project-pocs\vcpkg\cmake-build-debug-vcpkg\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/main.cpp">
+			<Option target="vcpkg"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/vcpkg.json">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/.cmakestamp">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\unofficial-sqlite3\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\unofficial-sqlite3\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets-release.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\unofficial-sqlite3\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\unofficial-sqlite3\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/fmt/fmt-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/vcpkg_installed/x64-windows/share/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-vcpkg\vcpkg_installed\x64-windows\share\fmt\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

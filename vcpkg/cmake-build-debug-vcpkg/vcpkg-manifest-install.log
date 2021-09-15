@@ -1,0 +1,45 @@
+Detecting compiler hash for triplet x64-windows...
+The following packages will be built and installed:
+    fmt[core]:x64-windows -> 7.1.3#1 -- D:\vcpkg\buildtrees\versioning\versions\fmt\4f8427eb0bd40da1856d4e67bde39a4fda689d72
+    sqlite3[core]:x64-windows -> 3.34.1 -- D:\vcpkg\buildtrees\versioning\versions\sqlite3\a4f8c5e08012ca84ac1b505c65ad1c3d174255ec
+  * vcpkg-cmake[core]:x64-windows -> 2021-02-26 -- D:\vcpkg\buildtrees\versioning\versions\vcpkg-cmake\51896aa8073adb5c8450daa423d03eedf0dfc61f
+  * vcpkg-cmake-config[core]:x64-windows -> 2021-02-26 -- D:\vcpkg\buildtrees\versioning\versions\vcpkg-cmake-config\d255b3d566a8861dcc99a958240463e678528066
+    zlib[core]:x64-windows -> 1.2.11#9 -- D:\vcpkg\buildtrees\versioning\versions\zlib\827111046e37c98153d9d82bb6fa4183b6d728e4
+Additional packages (*) will be modified to complete this operation.
+Restored 5 packages from C:\Users\youne\AppData\Local\vcpkg\archives in 278.7 ms. Use --debug to see more details.
+Starting package 1/5: vcpkg-cmake-config:x64-windows
+Installing package vcpkg-cmake-config[core]:x64-windows...
+Elapsed time for package vcpkg-cmake-config:x64-windows: 22.61 ms
+Starting package 2/5: vcpkg-cmake:x64-windows
+Installing package vcpkg-cmake[core]:x64-windows...
+Elapsed time for package vcpkg-cmake:x64-windows: 27.84 ms
+Starting package 3/5: fmt:x64-windows
+Installing package fmt[core]:x64-windows...
+Elapsed time for package fmt:x64-windows: 141.1 ms
+Starting package 4/5: sqlite3:x64-windows
+Installing package sqlite3[core]:x64-windows...
+Elapsed time for package sqlite3:x64-windows: 171.3 ms
+Starting package 5/5: zlib:x64-windows
+Installing package zlib[core]:x64-windows...
+Elapsed time for package zlib:x64-windows: 102.9 ms
+
+Total elapsed time: 744.5 ms
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+The package sqlite3 provides CMake targets:
+
+    find_package(unofficial-sqlite3 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial::sqlite3::sqlite3)
+
+The package zlib is compatible with built-in CMake targets:
+
+    find_package(ZLIB REQUIRED)
+    target_link_libraries(main PRIVATE ZLIB::ZLIB)
+

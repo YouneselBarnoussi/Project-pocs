@@ -1,0 +1,8 @@
+Package: sqlite3
+Version: 3.34.1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b3ea011554deb05761feca063cfce439ad7bea96923672d83dd7d4f50a9a0e09
+Description: SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+Type: Port
+Status: install ok half-installed

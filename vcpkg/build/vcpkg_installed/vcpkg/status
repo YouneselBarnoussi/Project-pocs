@@ -1,0 +1,46 @@
+Package: vcpkg-cmake-config
+Version: 2021-02-26
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 41c733a5e048092a09237916606fb2094398434bfe0a754df5708cdf34983b85
+Type: Port
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2021-02-26
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a02c8b428e9462cd1349b5e2ce1a5ef703d11d110a88552dd727310805d71423
+Type: Port
+Status: install ok installed
+
+Package: fmt
+Version: 7.1.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 808765b6eed08de2ed7e9f107d97d06c8b3165a76c1cd5271cb8079d8bb759d8
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Type: Port
+Status: install ok installed
+
+Package: sqlite3
+Version: 3.34.1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b3ea011554deb05761feca063cfce439ad7bea96923672d83dd7d4f50a9a0e09
+Description: SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+Type: Port
+Status: install ok installed
+
+Package: zlib
+Version: 1.2.11
+Port-Version: 9
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ebaaa58e7c7a38d780af3fbfbacfaf00d3ae6ddb56d64e2951f94560b52430d8
+Description: A compression library
+Type: Port
+Status: install ok installed
+
