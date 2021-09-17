@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/youne/Desktop/Project-pocs/hunter
+# Install script for directory: C:/Users/youne/Desktop/Project-pocs/sdl2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/youne/Desktop/Project-pocs/hunter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/youne/Desktop/Project-pocs/sdl2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

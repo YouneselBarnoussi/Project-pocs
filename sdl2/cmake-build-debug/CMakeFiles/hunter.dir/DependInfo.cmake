@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/youne/Desktop/Project-pocs/hunter/main.cpp" "C:/Users/youne/Desktop/Project-pocs/hunter/cmake-build-debug/CMakeFiles/hunter.dir/main.cpp.obj"
+  "C:/Users/youne/Desktop/Project-pocs/sdl2/main.cpp" "C:/Users/youne/Desktop/Project-pocs/sdl2/cmake-build-debug/CMakeFiles/hunter.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../SDL2-2.0.16/include"
+  "C:/Users/youne/Desktop/Project-pocs/hunter/SDL2-2.0.16/include"
   )
 
 # The set of dependency files which are needed:
