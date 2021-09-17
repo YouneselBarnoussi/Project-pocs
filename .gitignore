@@ -1,2 +1,3 @@
 /sfml/cmake-build-debug/
 /sdl2_with_input/cmake-build-debug/
+/box2d_with_sdl2/cmake-build-debug/
