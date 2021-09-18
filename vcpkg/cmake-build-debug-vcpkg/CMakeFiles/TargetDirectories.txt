@@ -1,3 +1,0 @@
-C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/CMakeFiles/vcpkg.dir
-C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/CMakeFiles/edit_cache.dir
-C:/Users/youne/Desktop/Project-pocs/vcpkg/cmake-build-debug-vcpkg/CMakeFiles/rebuild_cache.dir
