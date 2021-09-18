@@ -5,3 +5,4 @@
 /vcpkg/cmake-build-debug/
 /conan/cmake-build-debug/
 /conan/cmake-build-release/
+/SDL2/cmake-build-debug/
