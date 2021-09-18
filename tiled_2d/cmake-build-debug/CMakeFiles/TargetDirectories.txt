@@ -1,0 +1,3 @@
+C:/Users/youne/Desktop/Project-pocs/tiled_2d/cmake-build-debug/CMakeFiles/tiled_2d.dir
+C:/Users/youne/Desktop/Project-pocs/tiled_2d/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/youne/Desktop/Project-pocs/tiled_2d/cmake-build-debug/CMakeFiles/rebuild_cache.dir

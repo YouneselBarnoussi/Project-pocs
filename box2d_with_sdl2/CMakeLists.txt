@@ -14,9 +14,9 @@ else ()
     set(SDL2_LIBRARIES "${PROJECT_SOURCE_DIR}/SDL2-2.0.16/lib/x86/SDL2.lib;${PROJECT_SOURCE_DIR}/SDL2-2.0.16/lib/x86/SDL2main.lib")
 endif ()
 
-include_directories(${SDL2_INCLUDE_DIR} ${BOX2D_INCLUDE_DIR})
+include_directories(${SDL2_INCLUDE_DIR} ${BOX2D_INCLUDE_DIR} ${CMAKE_CURRENT_SOURCE_DIR})
 link_directories(${SDL2_LIB_DIR})
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} box2d)
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${PROJECT_SOURCE_DIR}/box2d.lib)
