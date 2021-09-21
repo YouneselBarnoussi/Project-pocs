@@ -314,7 +314,7 @@ int main(int argc, char *args[]) {
 
         SDL_RenderPresent(renderTarget);
     }
-    
+
     SDL_DestroyRenderer(renderTarget);
     SDL_DestroyWindow(window);
     SDL_Quit();

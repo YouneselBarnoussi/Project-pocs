@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(sdl2_with_input)
+project(box2d_with_sdl2)
 
 set(CMAKE_CXX_STANDARD 14)
 
